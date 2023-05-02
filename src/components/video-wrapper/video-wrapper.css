@@ -1,0 +1,30 @@
+
+.container {
+	width: 880px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	margin: auto;
+	border: 1px solid red;
+}
+
+h1 {
+  color: white;
+}
+
+video {
+  width: 100%;
+}
+
+.video-wrapper {
+  width: 880px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.video-wrapper:hover .controls {
+  transform: translateY(0%);
+}

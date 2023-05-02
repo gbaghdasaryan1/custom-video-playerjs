@@ -1,0 +1,12 @@
+.actions button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.actions button i {
+  background-color: none;
+  color: white;
+  font-size: 30px;
+}
